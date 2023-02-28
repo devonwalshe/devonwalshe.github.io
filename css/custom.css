@@ -1,35 +1,137 @@
-img{
-  border: 0;
+:root {
+  --surface-color: #eee;
+  --curve: 15;
 }
 
-.portfolio-item{
-  display: inline-block;
-  border: 1px solid #ddd;
-  margin: 15px;
+* {
+  box-sizing: border-box;
+}
+
+ul li p {
+  margin: 0px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
 }
 
 .card{
   position:relative;
-  height: 300px;
-  width: 200px;
+  display: block;
+  height: 350px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2);
+  border-radius: calc(var(--curve) * 1px);
+  transition: box-shadow 0.2s ease-in-out;
+  transition: transform 0.2s;
+  overflow: hidden;
+  background-color: var(--surface-color);
+}
+
+.card:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: scale(1.05);
 }
 
 .card .card-img{
   width: 100%;
-  height: 66.6%;
-  background: #000;
-  positon:absolute;
+  height: 80%;
+  position:absolute;
+  background-color: #fff;
   top: 0;
   left: 0;
-
+  border-radius: calc(var(--curve) * 1px) calc(var(--curve) * 1px) 0 0;
+  object-fit: cover;
 }
 
-.card .card-info{
-  background: #ddd;
-  width:100%;
-  height:33.3%;
-  position: absolute;
-  bottom:0;
+.card .card-overlay{
+  position:absolute;
+  bottom: 7%;
   left: 0;
-  display:block;
+  right: 0;
+  z-index: 1;
+  padding: 0 0 0 0;
+  background-color: var(--surface-color);
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card-overlay{
+  transform: translateY(0);
+}
+
+.card .card-header {
+  position: relative;
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  padding: 0 1em 0 1em;
+  margin: 1em 0 0 0;
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card-header .break{
+  width: 100%;
+  height: 0px;
+}
+
+.card:hover .card-header {
+  transform: translateY(0);
+}
+
+.card .card-title{
+  display: block;
+  font-size: 1em;
+  color: #000;
+}
+
+.card .card-position{
+  font-size: .6em;
+  margin-right: 0.4em;
+  color: #eb3434;
+  font-weight: 800;
+}
+
+.card .card-years{
+  display: inline-block;
+  margin-left: .2em;
+  font-size: 0.6em;
+  color: #eb3434;
+}
+
+
+.card .card-description{
+  padding: 0em 1.3em 0 1.3em;
+  margin: 0;
+  font-family: "MockFlowFont";
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  font-size: 0.8em;
+  color: #666;
+  line-height: 1em;
+}
+
+.card .card-read-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  font-size: .6em;
+}
+
+.card .card-read-more button{
+  width: 40%;
+  border: 1px solid #ddd;
+  border-radius: calc(var(--curve) * 1px);
+  background: #adadad;
+  padding: 0.6em 0em;
+  cursor: pointer;
 }

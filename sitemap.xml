@@ -2,9 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://devonwalshe.github.io/categories/</loc>
-  </url><url>
     <loc>https://devonwalshe.github.io/</loc>
+    <lastmod>2023-01-17T13:48:19-06:00</lastmod>
+  </url><url>
+    <loc>https://devonwalshe.github.io/portfolio/</loc>
+    <lastmod>2023-01-17T13:48:19-06:00</lastmod>
+  </url><url>
+    <loc>https://devonwalshe.github.io/portfolio/the-journal/</loc>
+    <lastmod>1969-12-31T18:33:27-06:00</lastmod>
+  </url><url>
+    <loc>https://devonwalshe.github.io/portfolio/photography/</loc>
+    <lastmod>1969-12-31T18:33:25-06:00</lastmod>
+  </url><url>
+    <loc>https://devonwalshe.github.io/portfolio/drifter/</loc>
+    <lastmod>1969-12-31T18:33:24-06:00</lastmod>
+  </url><url>
+    <loc>https://devonwalshe.github.io/categories/</loc>
   </url><url>
     <loc>https://devonwalshe.github.io/tags/</loc>
   </url>

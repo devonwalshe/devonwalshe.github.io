@@ -6,7 +6,16 @@
     <description>Recent content on Devon Walshe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Jan 2023 13:48:19 -0600</lastBuildDate><atom:link href="https://devonwalshe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jan 2023 15:58:02 -0600</lastBuildDate><atom:link href="https://devonwalshe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rugiet Health</title>
+      <link>https://devonwalshe.github.io/portfolio/rugiet/</link>
+      <pubDate>Tue, 17 Jan 2023 15:58:02 -0600</pubDate>
+      
+      <guid>https://devonwalshe.github.io/portfolio/rugiet/</guid>
+      <description>&amp;lsaquo; &amp;rsaquo; About Link to heading Rugiet is a direct to consumer healthcare company based in Austin, TX, disrupting the traditional compounding pharmaceutical industry with a mix of telehealth and customised healthcare provision. I joined the company in the summer of 2020 with a remit to pay down the significant technical debt that the company had accumulated during its get-to-market phase, and bring some order to the software development practices.</description>
+    </item>
+    
     <item>
       <title>Treasury Pay</title>
       <link>https://devonwalshe.github.io/portfolio/treasurypay/</link>

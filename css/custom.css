@@ -87,6 +87,7 @@ ul li p {
 
 .card .card-title{
   display: block;
+  margin-bottom: .2em;
   font-size: 1em;
   color: #000;
 }
@@ -94,6 +95,7 @@ ul li p {
 .card .card-position{
   font-size: .6em;
   margin-right: 0.4em;
+  line-height: 0em;
   color: #eb3434;
   font-weight: 800;
 }

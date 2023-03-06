@@ -3,6 +3,9 @@
   --curve: 15;
 }
 
+
+body{}
+
 * {
   box-sizing: border-box;
 }
@@ -87,6 +90,7 @@ ul li p {
 
 .card .card-title{
   display: block;
+  font: Roboto;
   margin-bottom: .2em;
   font-size: 1em;
   color: #000;
@@ -96,7 +100,7 @@ ul li p {
   font-size: .6em;
   margin-right: 0.4em;
   line-height: 0em;
-  color: #eb3434;
+  color: #eb3433;
   font-weight: 800;
 }
 
@@ -111,14 +115,13 @@ ul li p {
 .card .card-description{
   padding: 0em 1.3em 0 1.3em;
   margin: 0;
-  font-family: "MockFlowFont";
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
   overflow: hidden;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #666;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 .card .card-read-more{
